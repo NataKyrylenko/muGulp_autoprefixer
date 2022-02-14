@@ -1,0 +1,25 @@
+.blog {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 30px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 16px 20px rgba(103, 103, 38, 0.2);
+  background-color: #adadad;
+  border: 2px solid #474747;
+}
+.blog__title {
+  font-size: 25px;
+  color: #491897;
+}
+.blog__text {
+  font-size: 18px;
+  font-style: italic;
+  color: #4b238d;
+}

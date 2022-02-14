@@ -1,0 +1,23 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 16px 20px rgb(103 103 38 / 20%);
+  background-color: rgb(173, 173, 173);
+  border: 2px solid rgb(71, 71, 71);
+
+  &__title {
+    font-size: 25px;
+    color: #491897;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-style: italic;
+    color: #4b238d;
+  }
+}
